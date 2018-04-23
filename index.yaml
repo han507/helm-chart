@@ -3,11 +3,30 @@ entries:
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-23T11:55:53.987390546+09:00
+    created: 2018-04-23T15:23:21.674485565+09:00
+    description: helm my chart
+    digest: b517566ca90d47a31193aa4a80e42be0bf0232c6af5746dc25d7d4e488f7dd3c
+    name: mychart
+    urls:
+    - mychart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-23T15:23:21.674091613+09:00
     description: A Helm chart for Kubernetes
     digest: fbf433ad49d3623fd1fec2cdec3d65022e472bb30b67463bd0f52c484177632e
     name: mychart
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-04-23T11:55:53.986537392+09:00
+  yourchart:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-23T15:23:21.67493554+09:00
+    description: A Helm chart for Kubernetes
+    digest: f7a1161feedb2810fdcce3c64ad89c67ff5814f882a6a1347364ff834c7f3ba6
+    name: yourchart
+    urls:
+    - yourchart-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-04-23T15:23:21.67330504+09:00
